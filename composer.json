@@ -1,12 +1,16 @@
 
 {
-"name" : "training/mvc",
-"description" : "     ",
-"require" : {},
-"require-dev" : {},
-"autoload" : {
-    "psr-4" : {
-        "App\\" : "./src"
+    "name": "training/mvc",
+    "description": "A MVC Framework from scratch.",
+    "require-dev": {
+      "symfony/var-dumper": "^6.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "./src"
+      },
+      "files": [
+        "src/functions.php"
+      ]
     }
-}
-}
+  }
